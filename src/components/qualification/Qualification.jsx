@@ -9,7 +9,7 @@ const Qualification = () => {
   };
 
   return (
-    <section className="qualification section">
+    <section className="qualification section" id="qualification">
       <h2 className="section__title">Qualification</h2>
       <span className="section__subtitle">My Personal Journey</span>
       <div className="qualification__container container">
@@ -47,10 +47,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Design</h3>
-                <span className="qualification__subtitle">Uiet</span>
+                <h3 className="qualification__title">Bachelor of Technology</h3>
+                <span className="qualification__subtitle">
+                  UIET, Kurukshetra
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt "> </i> 2024 - Present
+                  <i className="uil uil-calendar-alt "> </i> 2019 - 2023
                 </div>
               </div>
               <div>
@@ -65,19 +67,23 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">Art Director</h3>
-                <span className="qualification__subtitle">UIET</span>
+                <h3 className="qualification__title">12th Sr. Secondary</h3>
+                <span className="qualification__subtitle">
+                  M.R.M. Public Sr. Sec. School, Jhajjar
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt "> </i> 2024
+                  <i className="uil uil-calendar-alt "> </i> 2017 - 2018
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Development</h3>
-                <span className="qualification__subtitle">Uiet</span>
+                <h3 className="qualification__title">10th Matriculation</h3>
+                <span className="qualification__subtitle">
+                  R.S. Modern Public School, Jhajjar
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt "> </i> 2024
+                  <i className="uil uil-calendar-alt "> </i> 2015 - 2016
                 </div>
               </div>
               <div>
@@ -85,7 +91,7 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
             </div>
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
@@ -98,7 +104,7 @@ const Qualification = () => {
                   <i className="uil uil-calendar-alt "> </i> 2021 - 2022
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           <div
             className={
@@ -109,10 +115,12 @@ const Qualification = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Product Designer</h3>
-                <span className="qualification__subtitle">Uiet</span>
+                <h3 className="qualification__title">Frontend Developer</h3>
+                <span className="qualification__subtitle">
+                  Ninjaas Internet
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt "></i>2024
+                  <i className="uil uil-calender-alt "></i>Jan - Feb 2024
                 </div>
               </div>
               <div>
@@ -127,24 +135,42 @@ const Qualification = () => {
                 <span className="qualification__line"></span>
               </div>
               <div>
-                <h3 className="qualification__title">UX designer</h3>
-                <span className="qualification__subtitle">UIET</span>
+                <h3 className="qualification__title">Frontend Developer</h3>
+                <span className="qualification__subtitle">
+                  The Nature First Supplement
+                </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt "> </i> 2024
+                  <i className="uil uil-calendar-alt "> </i> July - Sept. 2023
                 </div>
               </div>
             </div>
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Designer</h3>
-                <span className="qualification__subtitle">Uiet</span>
+                <h3 className="qualification__title">React Training Program</h3>
+                <span className="qualification__subtitle">Internshala</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt "> </i> 2024
+                  <i className="uil uil-calendar-alt "> </i> June 2022
                 </div>
               </div>
               <div>
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
+              <div></div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+              <div>
+                <h3 className="qualification__title">Web Developer Intern</h3>
+                <span className="qualification__subtitle">
+                  The Sparks Foundation
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt "> </i> May 2021
+                </div>
               </div>
             </div>
           </div>

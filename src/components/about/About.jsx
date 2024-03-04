@@ -14,9 +14,9 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            Frontend developer, I create web pages with UI / UX user interface,
-            I have hands on experience and many clients are happy with the
-            projects carried out.
+            Frontend developer with expertise in creating dynamic web pages and
+            intuitive UI/UX interfaces. Explore my portfolio to see how I bring
+            ideas to life through clean code and compelling design.
           </p>
           <a
             download="Yash resume.pdf"
