@@ -8,6 +8,15 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
+    const name = form.current.elements["name"].value;
+    const email = form.current.elements["email"].value;
+    const project = form.current.elements["project"].value;
+    if (!name || !email || !project) {
+      // If any field is empty, return without sending the email
+      return;
+    }
+    console.log("Abc");
+
     emailjs.sendForm("service_644t3yv", "template_wfg7uq6", form.current, {
       publicKey: "RpkZhum9FiSkmzaxF",
     });
