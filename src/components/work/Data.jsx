@@ -4,6 +4,9 @@ import Work3 from "../../assets/Work3.png";
 import Work4 from "../../assets/Work4.png";
 import Work5 from "../../assets/Work5.png";
 import Work6 from "../../assets/Work6.png";
+import Work7 from "../../assets/Work7.png";
+import Work8 from "../../assets/Work8.png";
+import Work9 from "../../assets/Work9.png";
 
 export const projectsData = [
   {
@@ -48,6 +51,27 @@ export const projectsData = [
     title: "Weather App",
     link: "https://applocal-weather.netlify.app/",
     category: "web",
+  },
+  {
+    id: 7,
+    image: Work7,
+    title: "Tax Calculator",
+    link: "https://fyle-taxcalci.netlify.app/",
+    category: "web",
+  },
+  {
+    id: 8,
+    image: Work8,
+    title: "Ottermap WebApp",
+    link: "https://ottermap-assign.netlify.app/",
+    category: "web",
+  },
+  {
+    id: 9,
+    image: Work9,
+    title: "NetArt Assign",
+    link: "https://netart-yash.netlify.app/",
+    category: "design",
   },
 ];
 
