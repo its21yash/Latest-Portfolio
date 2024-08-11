@@ -10,7 +10,8 @@ const Home = () => {
       <div className="home__container container grid">
         <div className="home__content grid">
           <Social />
-          <div className="home__img"></div>
+          <img src="/assets/profile1.webp" alt="" className="home__img" />
+          {/* <div className="home__img"></div> */}
           <Data />
         </div>
         <ScrollDown />

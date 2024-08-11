@@ -44,6 +44,11 @@
   margin-bottom: var(--mb-2-5);
 }
 
+.download-icon {
+  height: 24px;
+  margin-left: 10px;
+}
+
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */
 @media screen and (max-width: 992px) {
