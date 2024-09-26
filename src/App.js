@@ -10,6 +10,7 @@ import Services from "./components/services/Services";
 import Skills from "./components/skills/Skills";
 // import Testimonials from "./components/testimonials/Testimonials";
 import Work from "./components/work/Work";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </main>
       <Footer />
       <ScrollUp />
+      <Analytics />
     </>
   );
 }
