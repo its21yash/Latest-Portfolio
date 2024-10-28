@@ -18,7 +18,7 @@ const About = () => {
             ideas to life through clean code and compelling design.
           </p>
           <a
-            download="Yash resume.pdf"
+            download="Yash-resume.pdf"
             href={CV}
             className="button button--flex"
           >
