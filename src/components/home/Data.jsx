@@ -4,7 +4,8 @@ const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Yashpal <img src="/assets/hi-icon.svg" alt="hi-icon" />
+        Yashpal{" "}
+        <img src="/assets/hi-icon.svg" alt="hi-icon" className="inline-block" />
       </h1>
       <h3 className="home__subtitle">Web developer</h3>
       <p className="home__description">

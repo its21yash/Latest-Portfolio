@@ -41,6 +41,7 @@
 @media screen and (max-width: 768px) {
   .show-scroll {
     bottom: 4rem;
+    right: 2rem;
   }
 }
 

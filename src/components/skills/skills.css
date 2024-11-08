@@ -27,6 +27,7 @@
 .skills__group {
   display: grid;
   align-items: flex-start;
+  @apply grid-cols-2;
   row-gap: 1rem;
 }
 
@@ -66,6 +67,10 @@
 @media screen and (max-width: 576px) {
   .skills__container {
     grid-template-columns: 1fr;
+  }
+
+  .skills__group {
+    @apply grid-cols-1;
   }
 }
 

@@ -206,6 +206,11 @@ img {
 }
 
 @media screen and (max-width: 576px) {
+  .container {
+    margin-left: 0;
+    margin-right: 0;
+    @apply px-4;
+  }
 }
 
 /* For small devices */
@@ -215,7 +220,8 @@ img {
   }
 
   .container {
-    margin-left: var(--mb-1);
-    margin-right: var(--mb-1);
+    margin-left: 0;
+    margin-right: 0;
+    @apply px-4;
   }
 }

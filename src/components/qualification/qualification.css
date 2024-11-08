@@ -105,6 +105,10 @@
   .qualification__button {
     margin: 0 var(--mb-0-75);
   }
+
+  .qualification__container {
+    @apply mx-0;
+  }
 }
 
 /* For small devices */
