@@ -12,7 +12,7 @@ const Social = () => {
         <i className="uil uil-github-alt"></i>
       </a>
       <a
-        href="https://www.linkedin.com/in/yashpal-kumar-9b785b1a6/"
+        href="https://www.linkedin.com/in/its21yash/"
         className="home__social-icon"
         target="_blank"
         rel="noopener noreferrer"
@@ -34,6 +34,14 @@ const Social = () => {
         rel="noopener noreferrer"
       >
         <i className="uil uil-instagram"></i>
+      </a>
+      <a
+        href="https://buymeacoffee.com/its21yash"
+        className="home__social-icon"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i className="uil uil-coffee"></i>
       </a>
     </div>
   );

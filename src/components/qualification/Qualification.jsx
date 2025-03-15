@@ -114,6 +114,21 @@ const Qualification = () => {
             }
           >
             <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Software Developer</h3>
+                <span className="qualification__subtitle">
+                  Zillion Analytics
+                </span>
+                <div className="qualification__calendar">
+                  <i className="uil uil-calendar-alt "> </i>Dec. 2024 - Present
+                </div>
+              </div>
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+            <div className="qualification__data">
               <div></div>
               <div>
                 <span className="qualification__rounder"></span>
@@ -123,7 +138,8 @@ const Qualification = () => {
                 <h3 className="qualification__title">Software Developer</h3>
                 <span className="qualification__subtitle">Ai Clues</span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt "></i> June 2024 - Present
+                  <i className="uil uil-calendar-alt "></i> June 2024 - Nov.
+                  2024
                 </div>
               </div>
             </div>
@@ -134,7 +150,7 @@ const Qualification = () => {
                   Ninjaas Internet
                 </span>
                 <div className="qualification__calendar">
-                  <i className="uil uil-calendar-alt "> </i>Jan - Feb 2024
+                  <i className="uil uil-calendar-alt "> </i>Jan - Feb. 2024
                 </div>
               </div>
               <div>
