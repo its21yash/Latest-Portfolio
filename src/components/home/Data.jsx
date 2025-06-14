@@ -9,8 +9,10 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Web developer</h3>
       <p className="home__description">
-        Skilled web developer with a knack for building responsive,
-        user-friendly websites and contributing to innovative web solutions.
+        Full-Stack Developer crafting <strong>high-performance web apps</strong>{" "}
+        that drive business growth. Specializing in{" "}
+        <strong>Next.js, React, and AI-powered solutions</strong> for startups
+        and enterprises.
       </p>
       <a
         href="tel:+918607698362"
