@@ -20,7 +20,7 @@ const Social = () => {
         <i className="uil uil-linkedin-alt"></i>
       </a>
       <a
-        href="https://twitter.com/its21yash"
+        href="https://x.com/lifeof21yash"
         className="home__social-icon"
         target="_blank"
         rel="noopener noreferrer"
