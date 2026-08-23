@@ -1,6 +1,29 @@
 import React from "react";
 import "./footer.css";
 
+const footerSocialLinks = [
+  {
+    label: "GitHub",
+    href: "https://github.com/its21yash",
+    icon: "bxl-github",
+  },
+  {
+    label: "LinkedIn",
+    href: "https://www.linkedin.com/in/its21yash/",
+    icon: "bxl-linkedin",
+  },
+  {
+    label: "X",
+    href: "https://x.com/lifeof21yash",
+    icon: "bxl-twitter",
+  },
+  {
+    label: "Instagram",
+    href: "https://www.instagram.com/its21yash/",
+    icon: "bxl-instagram",
+  },
+];
+
 const Footer = () => {
   return (
     <footer className="footer">
@@ -24,30 +47,19 @@ const Footer = () => {
           </li>
         </ul>
         <div className="footer__social">
-          <a
-            href="https://www.facebook.com/profile.php?id=100034343543101"
-            className="footer__social-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="bx bxl-facebook"></i>
-          </a>
-          <a
-            href="https://www.instagram.com/its21yash/"
-            className="footer__social-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="bx bxl-instagram"></i>
-          </a>
-          <a
-            href="https://twitter.com/its21yash"
-            className="footer__social-link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="bx bxl-twitter"></i>
-          </a>
+          {footerSocialLinks.map(({ label, href, icon }) => (
+            <a
+              key={label}
+              href={href}
+              className="footer__social-link"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label={label}
+              title={label}
+            >
+              <i className={`bx ${icon}`}></i>
+            </a>
+          ))}
         </div>
 
         <span className="footer__copy">
