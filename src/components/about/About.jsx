@@ -13,9 +13,11 @@ const About = () => {
         <div className="about__data">
           <Info />
           <p className="about__description">
-            I turn <strong>MVP ideas into scalable SaaS products</strong> with
-            Next.js and React. Built an <strong>AI Form Builder</strong> that
-            cut form abandonment by 30%—let’s engineer your growth.
+            I lead frontend architecture for production SaaS modules —{" "}
+            <strong>billing, form automation, and chat</strong> — built with
+            Next.js, TypeScript, Zustand, and React Query. I design reusable
+            component systems, document engineering standards, and ship{" "}
+            <strong>Expo + Next.js monorepos</strong> across web and mobile.
           </p>
           <a
             download="Yash-resume.pdf"

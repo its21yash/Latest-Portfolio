@@ -1,58 +1,21 @@
 import React from "react";
+import SkillsGroup from "./SkillsGroup";
+
+const backendSkills = [
+  { name: "REST APIs", level: "Advanced" },
+  { name: "Node.js", level: "Intermediate" },
+  { name: "Prisma", level: "Intermediate" },
+  { name: "MongoDB", level: "Intermediate" },
+  { name: "Supabase", level: "Intermediate" },
+  { name: "Firebase", level: "Intermediate" },
+  { name: "Python", level: "Intermediate" },
+  { name: ".NET & C#", level: "Basic" },
+  { name: "Git & GitHub", level: "Advanced" },
+  { name: "Vercel & CI/CD", level: "Intermediate" },
+];
 
 const Backend = () => {
-  return (
-    <div className="skills__content">
-      <h3 className="skills__title">Backend Developer</h3>
-      <div className="skills__box">
-        <div className="skills__group">
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Node Js</h3>
-              <span className="skills_level">Basic</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Python</h3>
-              <span className="skills_level">Intermediate</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">MongoDB</h3>
-              <span className="skills_level">Basic</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Firebase</h3>
-              <span className="skills_level">Basic</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Supabase</h3>
-              <span className="skills_level">Basic</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">SQL</h3>
-              <span className="skills_level">Basic</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+  return <SkillsGroup title="Backend & Tooling" skills={backendSkills} />;
 };
 
 export default Backend;

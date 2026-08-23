@@ -1,58 +1,21 @@
 import React from "react";
+import SkillsGroup from "./SkillsGroup";
+
+const frontendSkills = [
+  { name: "React & Next.js", level: "Advanced" },
+  { name: "TypeScript", level: "Advanced" },
+  { name: "JavaScript", level: "Advanced" },
+  { name: "HTML & CSS", level: "Advanced" },
+  { name: "Tailwind CSS", level: "Advanced" },
+  { name: "ShadCN & Radix", level: "Advanced" },
+  { name: "Zustand & Redux", level: "Advanced" },
+  { name: "React Query", level: "Intermediate" },
+  { name: "React Native", level: "Intermediate" },
+  { name: "Expo", level: "Intermediate" },
+];
 
 const Frontend = () => {
-  return (
-    <div className="skills__content">
-      <h3 className="skills__title">Frontend developer</h3>
-      <div className="skills__box">
-        <div className="skills__group">
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">HTML & CSS</h3>
-              <span className="skills_level">Advanced</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Javascript</h3>
-              <span className="skills_level">Advanced</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Nextjs</h3>
-              <span className="skills_level">Intermediate</span>
-            </div>
-          </div>
-
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Angular</h3>
-              <span className="skills_level">Intermediate</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Git</h3>
-              <span className="skills_level">Intermediate</span>
-            </div>
-          </div>
-          <div className="skills__data">
-            <i class="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Tailwind</h3>
-              <span className="skills_level">Intermediate</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
+  return <SkillsGroup title="Frontend & Mobile" skills={frontendSkills} />;
 };
 
 export default Frontend;
